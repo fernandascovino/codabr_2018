@@ -1,7 +1,10 @@
+##  Interpretação e Fairness em Machine Learning
+
+Workshop da Fernanda Viegas (Google AI) sobre justiça e imparcialidade em ML.
+
 #### Como se transforma o valor social de justiça para os sistemas de ML?
 
 Existem várias definições de *fairness* e, matematicamente (segundo a lógica) falando, muitas definições se contradizem
-
 
 > Exemplo: duas populações diferentes para fornecimento de *credit scores*. 
 > Há uma grande probabilidade que o mesmo *threshold* para ambos não seja a melhor opção, 
@@ -19,10 +22,9 @@ then a natural criterion is **demographic parity**, that uses thresholds that yi
 the same fraction of T classifications to each group. **Or, as a computer scientist might put it, 
 the "positive rate" is the same across both groups.**
 
-* Equal oportunity
+* [Equal oportunity](https://arxiv.org/abs/1610.02413)
 
-Here, the constraint is that of the T values in each group, the same fraction in each group should actually be classified as T (?). 
-**Or, in data science jargon, the "true positive rate" is identical between groups.**
+Here, the constraint is that of the T values in each group, the same fraction in each group should actually be classified as T (?). **Or, in data science jargon, the "true positive rate" is identical between groups.**
 
 #### Como visualizar esses trade-offs matemáticos?
 
@@ -36,8 +38,8 @@ Google, Facebook e grandes empresas de AI tem uma iniciativa para o desenvolvime
 Software do Alphabet (irmã do Google, voltada para acabar com censuras wolrd wide). Perspective AI foi um esforço para acurar comentários tóxicos de mídias, 
 dando um *score* de toxicidade para cada comentário e rankeando, mas a decisão final de exclusão de comentários é humana.
 
-Problema: Usado nos comentários do New York Times, palavras como gay, lésbica, feminista tinham alto grau de toxidade. 
-*Por quê?* Analisando a distribuição das
+**Problema:** Usado nos comentários do New York Times, palavras como gay, lésbica, feminista tinham alto grau de toxidade. 
+*Por quê?* Analisando a distribuição das frases com essas palavras, se destoava demais da distribuiço geral, aparecendo em muito mais frases pequenas num contexto negativo. *Como solucionar?* El@s pediramo apoio da comunidade com mais exemplos de frases curtas com essas palavras, e conseguiram aproximar a distribuição muito melhor! O nível de toxidade dessas palavras foi de 60-80% para 1-10%!
 
 #### Como melhorar?
 
