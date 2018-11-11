@@ -10,7 +10,7 @@ Workshop sobre GitHub para jornalismo de dados, realizado no [CODA.Br](https://c
 
 + [LA Times Data Desk](https://github.com/datadesk) 
 
-+ [Estadão Dados](https://github.com/estadaoDados) 
++ [Estadão](https://github.com/estadao) 
 
 + [Volt Data Lab](https://github.com/voltdatalab) 
 
