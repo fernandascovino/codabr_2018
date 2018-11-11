@@ -20,11 +20,17 @@ Workshop sobre GitHub para jornalismo de dados, realizado no [CODA.Br](https://c
 
 + [How journalists can get started GitHub?](https://ijnet.org/en/story/how-journalists-can-get-started-github)
 
++ [Getting GitHub: Why journalists should know and use the social coding site](https://knightlab.northwestern.edu/2013/06/13/getting-github-why-journalists-should-know-and-use-the-social-coding-site/)
+
 #### Como aprender Git(Hub)? 
 
 + [Introdução ao Git](https://www.dadosaleatorios.com.br/post/introdu%C3%A7%C3%A3o-ao-git/) 
 
 + [Tudo que você queria saber sobre Git e GitHub, mas tinha vergonha de perguntar](https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/) 
+
++ [git - guia prático - sem complicação!](http://rogerdudler.github.com/git-guide)
+
++ [GitHub tutorials and resources for journalists](https://www.poynter.org/news/github-tutorials-and-resources-journalists)
 
 + [Vídeos Github Guides (<5min cada)](https://www.youtube.com/githubguides) 
 
