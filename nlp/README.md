@@ -1,6 +1,6 @@
 ##  Processamento da Linguagem Natural (NLP) e Jornalismo
 
-Workshop da Clarissa Castellã Xavier, da UFRGS sobre justiça e imparcialidade em ML.
+Workshop da Clarissa Castellã Xavier, da UFRGS sobre o que é e técnicas de processamento de linguagem natural para tratamento e análise textual.
 
 #### Análise de Sentimento (Polaridade)
 
