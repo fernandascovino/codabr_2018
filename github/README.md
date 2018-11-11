@@ -29,3 +29,6 @@ Dados e análises das matérias disponibilizadas no GitHub.
 + [Vídeos Github Guides (<5min cada)](https://www.youtube.com/githubguides) 
 
 #### Projeto Curió: Democratizando os dados da Câmara
+
++ [Perfil dos Parlamentares](http://35.192.83.177:5001/)
++ [Câmara em Temas](http://35.192.83.177:5000/)
