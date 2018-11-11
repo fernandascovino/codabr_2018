@@ -20,6 +20,8 @@ Dados e análises das matérias disponibilizadas no GitHub.
 
 #### Por que aprender Git(Hub)? 
 
++ [How journalists can get started GitHub?](https://ijnet.org/en/story/how-journalists-can-get-started-github)
+
 #### Como aprender Git(Hub)? 
 
 + [Introdução ao Git](https://www.dadosaleatorios.com.br/post/introdu%C3%A7%C3%A3o-ao-git/) 
