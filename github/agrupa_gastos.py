@@ -6,12 +6,12 @@ def agrupa_gastos(df):
 
     # agrupa por ano, nome, partido e uf
     print('Agrupando os gastos por deputado...')
-    gasto = df.groupby(['numano', 'txnomeparlamentar', 'sguf'])['vlrliquido'].s$
+    gasto = df.groupby(['numano', 'txnomeparlamentar', 'sguf'])['vlrliquido'].sum()
     gasto = gasto.append(gasto.sum(numeric_only=True), ignore_index=True)
 
     # ordena por maior gasto
     print('Ordenando os gastos...')
-    gasto = gasto.sort_values('vlrliquido', ascending=True).reset_index(drop=Tr$
+    gasto = gasto.sort_values('vlrliquido', ascending=True).reset_index(drop=True)
 
     # salva o csv 
     path = 'gastos-agrupados-2018-rj.csv'
