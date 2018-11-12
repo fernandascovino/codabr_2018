@@ -36,6 +36,30 @@ Workshop sobre GitHub para jornalismo de dados, realizado no [CODA.Br](https://c
 
 + [Vídeos Github Guides (<5min cada)](https://www.youtube.com/githubguides) 
 
+#### Atividade: Matéria sobre gastos de deputados
+
+Baixamos do [Brasil.io](brasil.io) a base Gastos Deputados, filtrando pelo RJ e ano de 2018. 
+Esse arquivo foi salvo aqui no repositório com o nome `gastos-deputados-2018-rj.csv`.
+
+Na linha de comando, uma vez tendo clonado o repositório no seu computador
+ ([o tutorial está aqui!](bit.ly/fscovino_codabr2018)), basta rodarmos:
+
+```
+python3 agrupa_gastos.py
+```
+
+**OBS:** Certifique-se que você tem `python3` e `pandas` instalados no seu computador! ;)
+
+Pronto! Agora temos o arquivo `gastos-agrupados-2018-rj`, com o gasto total de cada deputado do RJ no ano de 2018,
+ e a soma de todos esses (que dá mais de 10mi!)
+
+Vamos escrever sobre isso?
+
+Basta abrir um arquivo `rascunho_materia_gastos.md` e começar a escrever!
+
+**OBS2**: `md`é uma extensão de arquivo de texto chamada Markdown, como `txt` e `doc`, muito simples de usar! 
+Você pode encontrar todos os truques do Markdown [aqui](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
 #### Projeto Curió: Democratizando os dados da Câmara
 
 + [Perfil dos Parlamentares](http://35.192.83.177:5001/)

@@ -2,18 +2,18 @@ import pandas as pd
 
 def agrupa_gastos(df):
 
-    df = pd.read_csv('raw/gastos-deputados-2018-rj.csv')	
+    df = pd.read_csv('gastos-deputados-2018-rj.csv')
 
     # agrupa por ano, nome, partido e uf
     print('Agrupando os gastos por deputado...')
-    gasto = df.groupby(['numano', 'txnomeparlamentar', 'sguf'])['vlrliquido'].sum()
+    gasto = df.groupby(['numano', 'txnomeparlamentar', 'sguf'])['vlrliquido'].sum().reset_index()
     gasto = gasto.append(gasto.sum(numeric_only=True), ignore_index=True)
 
     # ordena por maior gasto
     print('Ordenando os gastos...')
     gasto = gasto.sort_values('vlrliquido', ascending=True).reset_index(drop=True)
 
-    # salva o csv 
+    # salva o csv
     path = 'gastos-agrupados-2018-rj.csv'
     gasto.to_csv(path)
 
@@ -23,4 +23,4 @@ def agrupa_gastos(df):
 
 if __name__ == '__main__':
 
-    agrupa_gastos('raw/gastos-deputados-2018-rj.csv')
+    agrupa_gastos('gastos-deputados-2018-rj.csv')
