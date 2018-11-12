@@ -26,6 +26,8 @@ the "positive rate" is the same across both groups.**
 
 Here, the constraint is that of the T values in each group, the same fraction in each group should actually be classified as T (?). **Or, in data science jargon, the "true positive rate" is identical between groups.**
 
+Based on the paper [Equality of Opportunity in Supervised Learning](https://arxiv.org/pdf/1610.02413.pdf).
+
 #### Como visualizar esses trade-offs matemáticos?
 
 #### Existe algum movimento para criação de um protocolo de *fairness*?
