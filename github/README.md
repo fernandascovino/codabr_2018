@@ -14,6 +14,8 @@ Workshop sobre GitHub para jornalismo de dados, realizado no [CODA.Br](https://c
 
 + [Volt Data Lab](https://github.com/voltdatalab) 
 
++ [Reporter Brasil - Ruralômetro](https://github.com/Reporter-Brasil/Ruralometro)
+
 + [GitHub Collection: Open Journalism](https://github.com/collections/open-journalism) 
 
 #### Por que aprender Git(Hub)? 
