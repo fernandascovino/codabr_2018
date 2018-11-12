@@ -36,6 +36,8 @@ Workshop sobre GitHub para jornalismo de dados, realizado no [CODA.Br](https://c
 
 + [Vídeos Github Guides (<5min cada)](https://www.youtube.com/githubguides) 
 
++ [Git Cheat Sheet (lista dos códigos Git por utilidade)](https://www.git-tower.com/blog/git-cheat-sheet/)
+
 #### Atividade: Matéria sobre gastos de deputados
 
 Baixamos do [Brasil.io](brasil.io) a base Gastos Deputados, filtrando pelo RJ e ano de 2018. 
