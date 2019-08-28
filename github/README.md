@@ -44,7 +44,7 @@ Baixamos do [Brasil.io](brasil.io) a base Gastos Deputados, filtrando pelo RJ e 
 Esse arquivo foi salvo aqui no repositório com o nome `gastos-deputados-2018-rj.csv`.
 
 Na linha de comando, uma vez tendo clonado o repositório no seu computador
- ([o tutorial está aqui!](bit.ly/fscovino_codabr2018)), basta rodarmos:
+ ([o tutorial está aqui!](http://bit.ly/fscovino_codabr2018)), basta rodarmos:
 
 ```
 python3 agrupa_gastos.py
