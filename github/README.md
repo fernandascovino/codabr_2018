@@ -2,6 +2,8 @@
 
 Workshop sobre GitHub para jornalismo de dados, realizado no [CODA.Br](https://coda.escoladedados.org) | @fernandascovino
 
+**Apresentação dos comandos**: http://bit.ly/fscovino_codabr2018
+
 **Base de dados utilizada**: [Gastos dos Deputados (Brasil.io - O Brasil em dados libertos)](https://brasil.io/dataset/gastos-deputados/cota_parlamentar?search=&numano=2018&nummes=&datemissao=&txnomeparlamentar=&sgpartido=&sguf=RJ&txtdescricao=&txtcnpjcpf=&txtfornecedor=&vlrliquido=)
 
 #### Jornalismo de Dados no GitHub: Exemplos 
